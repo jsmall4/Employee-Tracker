@@ -1,9 +1,14 @@
+DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS role;
+DROP TABLE IF EXISTS department;
+
+
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30) NOT NULL
 );
 
--- console.table(department)
+
 
 CREATE TABLE role (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -13,7 +18,7 @@ CREATE TABLE role (
     FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE SET NULL
 );
 
--- console.table(role)
+
 
 CREATE TABLE employee (
    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -25,8 +30,7 @@ CREATE TABLE employee (
    FOREIGN KEY (manager_id) REFERENCES employee(id) ON DELETE SET NULL
 );
 
--- console.table(employee),
--- console.table(employee_db) - redun
+
 
 
 
