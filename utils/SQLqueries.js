@@ -141,4 +141,5 @@ module.exports = {
   viewEmployee,
   viewRole,
   changeEmployee,
+  SQLqueries,
 };

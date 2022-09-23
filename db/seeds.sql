@@ -28,9 +28,6 @@ VALUES
 ("Craig", "Jones", 2, NULL),
 ("Braulio", "Estima", 3, NULL),
 ("Roger", "Gracie", 4, NULL);
-
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES
 ("Bradley", "Hill", 5, 4),
 ("Owen", "Livesy", 6, 3),
 ("Kade", "Ruotolo", 7, 2),
