@@ -28,9 +28,9 @@ VALUES
 ("Craig", "Jones", 2, NULL),
 ("Braulio", "Estima", 3, NULL),
 ("Roger", "Gracie", 4, NULL),
-("Bradley", "Hill", 5, 4),
-("Owen", "Livesy", 6, 3),
-("Kade", "Ruotolo", 7, 2),
-("Mikey", "Muscemi", 8, 1);
+("Bradley", "Hill", 4, 4),
+("Owen", "Livesy", 3, 3),
+("Kade", "Ruotolo", 2, 2),
+("Mikey", "Muscemi", 1, 1);
 
 
