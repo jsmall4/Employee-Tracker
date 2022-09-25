@@ -1,5 +1,5 @@
 const callTable = require("console.table");
-const db = require("../db/connection");
+const db = require("../config/connection");
 
 const insertDepartment = async (newDepartment) => {
   await db
@@ -133,13 +133,15 @@ const changeEmployee = async ({ whichEmployee, whichRole, whichManager }) => {
     });
 };
 
-module.exports = {
-  insertDepartment,
-  insertRole,
-  insertEmployee,
-  viewDepartments,
-  viewEmployee,
-  viewRole,
-  changeEmployee,
-  SQLqueries,
-};
+// module.exports = {
+//   insertDepartment,
+//   insertRole,
+//   insertEmployee,
+//   viewDepartments,
+//   viewEmployee,
+//   viewRole,
+//   changeEmployee,
+//   SQLqueries,
+// };
+
+module.exports = SQLqueries;

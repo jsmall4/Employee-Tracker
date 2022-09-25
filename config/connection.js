@@ -7,8 +7,10 @@ const db = mysql.createConnection({
   database: "employee_db",
 });
 
+console.log(`\nConnected to the employees_db database.`);
+
 db.connect((err) => {
   if (err) throw err;
 });
 
-module.exports = connection;
+module.exports = db;
