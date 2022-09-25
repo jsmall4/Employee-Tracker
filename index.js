@@ -56,7 +56,7 @@ const promptStart = () => {
         break;
       case "Add A New Department":
         addDepartment().then((department) => {
-          insertDepartment(department.dpt).then(promptStart);
+          insertDepartment(department.department).then(promptStart);
         });
         break;
       case "Update Employee Role":
