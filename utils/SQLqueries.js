@@ -133,15 +133,12 @@ const changeEmployee = async ({ whichEmployee, whichRole, whichManager }) => {
     });
 };
 
-// module.exports = {
-//   insertDepartment,
-//   insertRole,
-//   insertEmployee,
-//   viewDepartments,
-//   viewEmployee,
-//   viewRole,
-//   changeEmployee,
-//   SQLqueries,
-// };
-
-module.exports = SQLqueries;
+module.exports = {
+  insertDepartment,
+  insertRole,
+  insertEmployee,
+  viewDepartments,
+  viewEmployee,
+  viewRole,
+  changeEmployee,
+};
